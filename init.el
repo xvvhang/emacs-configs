@@ -8,4 +8,3 @@ If the file exists, it is loaded; otherwise, a message is displayed."
 
 (load-config-file "options.el")
 (load-config-file "plugins.el")
-(load-config-file "keymaps.el")

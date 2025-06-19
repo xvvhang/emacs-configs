@@ -22,6 +22,8 @@
 (setq straight-use-package-by-default t)
 
 (load-config-file "theme.el")
-;; (load-config-file "plugins/evil-mode.el")
-;; (load-config-file "plugins/evil-terminal-cursor-changer.el")
+(load-config-file "plugins/evil-mode.el")
+(load-config-file "plugins/evil-terminal-cursor-changer.el")
 (load-config-file "plugins/doom-modeline.el")
+; (load-config-file "plugins/awesome-tray.el")
+(load-config-file "plugins/markdown-mode.el")

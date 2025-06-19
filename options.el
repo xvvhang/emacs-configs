@@ -7,14 +7,14 @@
 (global-hl-line-mode 1)
 (global-display-line-numbers-mode 1)
 (setq display-line-numbers-type 'relative)
+(setq-default mode-line-format nil)
 
-(setq org-startup-indented t)
-(setq org-adapt-indentation t)
-(require 'ox-md)
-
-(setq org-directory "~/Documents/Notes")
-(setq org-mobile-inbox-for-pull "~/Documents/Notes/@inbox.org")
-(setq org-mobile-directory "~/Library/Mobile Documents/iCloud~com~mobileorg~mobileorg/Documents")
+; (setq org-startup-indented t)
+; (setq org-adapt-indentation t)
+; (require 'ox-md)
+; (setq org-directory "~/Documents/Notes")
+; (setq org-mobile-inbox-for-pull "~/Documents/Notes/@inbox.org")
+; (setq org-mobile-directory "~/Library/Mobile Documents/iCloud~com~mobileorg~mobileorg/Documents")
 
 (defun change-window-divider ()
   (let ((display-table (or buffer-display-table
